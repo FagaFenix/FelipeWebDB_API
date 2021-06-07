@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 const userSchema = new mongoose.Schema({
-    Email: { type: Number, require: true },
+    Email: { type: String, require: true },
     Password: { type: String, require: true },
     Name: { type: String, require: true },
     Age: { type: Number, require: true },
@@ -9,4 +9,4 @@ const userSchema = new mongoose.Schema({
     Type: { type: String, require: true }
 })
 
-module.exports = mongoose.model('Category', usertSchema)
+module.exports = mongoose.model('User', userSchema)

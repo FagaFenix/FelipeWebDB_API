@@ -1,4 +1,4 @@
-const user = require('../models/User')
+// const user = require('../models/User')
 const userModel = require('../models/User') //vamos a usar el modelo de category
 
 /**
@@ -18,7 +18,7 @@ exports.create = (req, res) => {
         Gender: req.body.Gender,
         Type: req.body.Type
     })
-    category.save().then(
+    user.save().then(
         data => {
             res.send(data)
         }

@@ -9,7 +9,7 @@ const categoryModel = require('../models/Category') //vamos a usar el modelo de 
 
 
 /**
- * Mètodo para crear una nueva categoría
+ * Método para crear una nueva categoría
  * @param {*} req => Todos los datos y la información que le va a recibir.
  * @param {*} res => Todo lo que nosotros le vamos a devolver al usuario.
  */
@@ -35,7 +35,7 @@ exports.create = (req, res) => {
 }
 
 /**
- * Mètodo para crear una nueva categoría
+ * Mètodo para mostrar una categoría
  * @param {*} req => Todos los datos y la información que le va a recibir.
  * @param {*} res => Todo lo que nosotros le vamos a devolver al usuario.
  */
@@ -60,7 +60,7 @@ exports.findAll = (req, res) => {
 }
 
 /**
- * Mètodo para crear una nueva categoría
+ * Mètodo para actualizar una categoría
  * @param {*} req => Todos los datos y la información que le va a recibir.
  * @param {*} res => Todo lo que nosotros le vamos a devolver al usuario.
  */
@@ -85,7 +85,7 @@ exports.update = (req, res) => {
 }
 
 /**
- * Mètodo para crear una nueva categoría
+ * Mètodo para borrar una categoría
  * @param {*} req => Todos los datos y la información que le va a recibir.
  * @param {*} res => Todo lo que nosotros le vamos a devolver al usuario.
  */

@@ -15,6 +15,6 @@ module.exports = (app) => {
      */
     app.post('/user/create', userController.create)
     app.get('/user/getAll', userController.findAll)
-    app.put('/user/update/:id', userController.put)
+    app.put('/user/update/:id', userController.update)
     app.delete('/user/deleteOne/:id', userController.delete)
 }
